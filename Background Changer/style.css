@@ -1,0 +1,21 @@
+#h3{
+    text-align: center;
+     background-color: #000000;
+     color: white;
+}
+ #bt {
+    text-align: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+.sec{
+    background-color: #585353;
+}
+
