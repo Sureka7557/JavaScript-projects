@@ -1,0 +1,127 @@
+/* 
+ body{
+      background-color:#430606;
+      min-height: 100vh;
+       margin: 4em;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       margin-left: 2em;
+     margin-right: 2em;
+
+       
+  
+}
+
+.css{
+    color: hsl(0, 0%, 0%);
+    
+}
+
+
+
+
+#p1,#p2,#p3,#p4{
+    font-family: Arial, sans-serif;
+    color: #49bebe;
+}
+p span{
+    font-weight: bold;
+}
+ main{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+ }
+h1{
+    color: #F4A87F;
+    border: 5px double #ffffff;
+    outline: 2px solid #f19999;
+    outline-offset: 2px;
+    width: 50%;
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+}
+p{
+    font-family: 'Segoe UI';
+    /* multiply rem to parent 16 default *1 rem */
+    /* font-size: rem;
+    width: 50ch;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    border: #000000 5px solid;
+    margin-left: 50px;
+    border-radius: 100px;
+} */ 
+/* .css{
+    display: inline-block;
+    color: darkslategray;
+    background-color: rgb(255, 180, 67);
+    padding: 20px;
+    margin: 10%;
+} */
+
+body{
+    background-color: blanchedalmond;
+    padding: 10%;
+       font-family: Poppins;
+}
+p{
+    /* text-decoration: dotted underline; */
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 6ch;
+    word-spacing: 1em;
+ 
+}
+/* #p1{
+    background-color: rgb(255, 211, 98);
+    margin: 20px;
+} */
+/* 
+button{
+    font-size: inherit;
+} 
+if text decoration none then it doesnt specify link style */
+
+/* a{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover,a:focus{
+    color: green;
+    opacity: 0.6;
+}
+
+a:visited{
+    color: purple;
+}  */
+
+ol{
+    list-style-type: lower-alpha;
+    color: blueviolet;
+  
+}
+/* ul{
+    list-style-type: square;
+    color: brown;
+    list-style-image: url(https://imgs.search.brave.com/b-mu8YFFJE34daH5MDMRAl441LsoID-hHi-xajqBP0w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/Y3V0ZS1jYXQtZ2ly/bC1zaXR0aW5nLWNh/cnRvb24tdmVjdG9y/LWljb24taWxsdXN0/cmF0aW9uLWFuaW1h/bC1uYXR1cmUtaWNv/bi1jb25jZXB0LWlz/b2xhdGVkLXByZW1p/dW1fMTM4Njc2LTQ2/MDguanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MCZxPTgw) ;
+    list-style-position: inside;
+} */
+ul li:nth-child(odd){
+    background-color: lightgray;
+    width: 10%;
+}
+ul li::marker{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    content: ">> ";
+}
